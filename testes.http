@@ -1,0 +1,44 @@
+POST http://localhost:5087/livro
+Content-Type: application/json
+
+{
+  "titulo": "Arquitetura Limpa",
+  "autor": "Robert C. Martin",
+  "anoPublicacao": 2017
+}
+
+POST http://localhost:5087/livro
+Content-Type: application/json
+
+{
+  "titulo": "Entendendo Algoritmos",
+  "autor": "Aditya Bhargava",
+  "anoPublicacao": 2017
+}
+
+POST http://localhost:5087/livro
+Content-Type: application/json
+
+{
+  "titulo": "Memórias Postumas de Brás Cubas",
+  "autor": "Machado de Assis",
+  "anoPublicacao": 1881
+}
+
+POST http://localhost:5087/livro
+Content-Type: application/json
+
+{
+  "titulo": "Duna",
+  "autor": "Frank Herbert",
+  "anoPublicacao": 1965
+}
+
+POST http://localhost:5087/livro
+Content-Type: application/json
+
+{
+  "titulo": "O Programador Pragmático",
+  "autor": "Andrew Hunt",
+  "anoPublicacao": 1999
+}
